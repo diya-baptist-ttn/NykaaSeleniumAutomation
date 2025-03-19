@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Nykaa Automation Suite" parallel="false">
+    <test name="Nykaa Tests">
+        <classes>
+            <class name="org.example.tests.LoginTest"/>
+            <class name="org.example.tests.SearchTest"/>
+            <class name="org.example.tests.CartTest"/>
+            <class name="org.example.tests.LogoutTest"/>
+        </classes>
+    </test>
+</suite>
